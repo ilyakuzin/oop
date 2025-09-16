@@ -19,6 +19,7 @@ public class Utils {
 
     //Calculates the arithmetic average of integers in the specified list.
     public double getAverage(List<Integer> integers) {
+        //нужно ли нам это? мб можно вынести проверку в return
         if (integers == null) {
             throw new IllegalArgumentException("List cannot be null");
         }
@@ -48,6 +49,7 @@ public class Utils {
     // maybe here it will be possible to optimize
     // need test and checks
     public static List<Integer> getSquaresOfUniqueElements(List<Integer> integers) {
+       // same as in prev method
         if (integers == null) {
             throw new IllegalArgumentException("List cannot be null");
         }
