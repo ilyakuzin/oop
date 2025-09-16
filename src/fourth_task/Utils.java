@@ -69,7 +69,7 @@ public class Utils {
     // example: Apple, Book, actor
     // should be actor, Apple, Book
     // easy to do -- we need to add some code in one line
-    // but dont use any ai -- read docs, find examples in internet
+    // but dont use any ai -- read docs, find examples in internet, there are at list 2 or 3 ways to do it
     public static List<String> getFilteredAndSortedStrings(List<String> strings, char c) {
         return strings.stream().filter(
                         s -> !s.isEmpty() &&
