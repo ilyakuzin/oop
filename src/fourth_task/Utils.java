@@ -37,7 +37,10 @@ public class Utils {
         // check it out, maybe u can use StringBuilder or StringBuffer
         // instead of working with string operations
         // and find out why u should use StringBuilder or StringBuffer
-        // then u need 2 do a lot of operations with strings -- its very important!
+        // когда нам нужно делать много операций со строками лучше избегать того,
+        // как написано сейчас -- конкатенация строк так завтратная операция
+        // у тебя каждый раз создается новая строчка на базе предыдущей
+        // и на все это нужна память
 
         // нужно ли делать проверку на пустую строку в списке и что делать с ней?
         // на вход должен даваться массив или список? узнай и подправь код там? где нужно
