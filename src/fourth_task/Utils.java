@@ -64,11 +64,11 @@ public class Utils {
                 .collect(Collectors.toList());
     }
 
-    // write tests, check u need to write comparator for .sorted() -- to ignore case lower/apper
+    // write tests, check u need to write comparator for .sorted() -- to ignore case lower/upper
     // pretty sure yes
     // example: Apple, Book, actor
     // should be actor, Apple, Book
-    //easy to do -- we need to add some code in one line
+    // easy to do -- we need to add some code in one line
     // but dont use any ai -- read docs, find examples in internet
     public static List<String> getFilteredAndSortedStrings(List<String> strings, char c) {
         return strings.stream().filter(
